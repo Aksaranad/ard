@@ -1,0 +1,126 @@
+* {text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body { 
+    background-color: #001C30;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    
+}
+.logo a{
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 800px;
+    float: left;
+    font-kerning: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.menu {
+    float: right;
+}
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    background: #176B87;
+    z-index: 1;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+   
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav  ul li a {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+section {
+    margin: 12px;
+    display: flex;
+    margin-bottom: 50px;
+}
+.kolom {
+    margin-left: auto;
+    margin-right: 100px;
+    margin-top: 50px ;
+    margin-bottom: 50px;
+}
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #FFFFFF;
+    font-size: 45px;
+}
+a.tblmerah {
+    background: #001C30;
+    border-radius: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tblmerah:hover{
+    background: #64CCC5;
+    text-decoration: underline;
+}
+
+a.tbloren {
+    background: #7895CB;
+    border-radius: 250px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+a.tbloren:hover{
+    background: #4A55A2;
+    text-decoration: none;
+}
+
+p {
+    color: #FFFFFF;
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+}
